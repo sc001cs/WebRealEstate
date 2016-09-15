@@ -21,8 +21,8 @@
         <authentication-provider>
             <password-encoder hash="sha"/>
             <jdbc-user-service data-source-ref="dataSource"
-                               users-by-username-query="SELECT Login, Senha, 'true' as enable FROM pessoa WHERE Login=?"
-                               authorities-by-username-query="SELECT Login as username, Permissao as authority  FROM pessoa WHERE Login=?"/>               
+                               users-by-username-query="SELECT username, password, 'true' as enable FROM users WHERE username=?"
+                               authorities-by-username-query="SELECT username as username, role as authority  FROM users WHERE username=?"/>
         </authentication-provider>
     </authentication-manager>
 
