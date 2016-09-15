@@ -23,7 +23,7 @@
                             <h:outputLabel for="nomecidade" value="Nome.:"/>
                             <p:inputText id="nomecidade" size="40" value="#{mbCidade.cidade.nome}"
                                 onkeyup="this.value = this.value.toUpperCase()" required="true"
-                                requiredMessage="O campo [Nome] é obrigatório."/>
+                                requiredMessage="[Nome] required"/>
                             
                             <p:panel>
                                 <p:commandButton value="Salvar" action="#{mbCidade.addCidade}"

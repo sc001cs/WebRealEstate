@@ -24,7 +24,7 @@
 
                                 <h:outputLabel for="nomePessoa" value="Nome.:"/>
                                 <p:inputText id="nomePessoa" size="40" value="#{mbPessoa.pessoa.nome}"
-                                             required="true" requiredMessage="O campo [Nome] é obrigatório"
+                                             required="true" requiredMessage="[Nome] required"
                                              onkeyup="this.value = this.value.toUpperCase()"/>
 
                                 <h:outputLabel for="sexo" value="Sexo.:"/>
@@ -35,24 +35,24 @@
                                 <h:outputLabel for="telefone" value="Telefone.:"/>
                                 <p:inputMask id="telefone" size="40" mask="(99) 9999-9999"
                                              value="#{mbPessoa.pessoa.telefone}"
-                                             required="true" requiredMessage="O campo [Telefone] é obrigatório"
+                                             required="true" requiredMessage="[Telefone] required"
                                              onkeyup="this.value = this.value.toUpperCase()"/>
 
                                 <h:outputLabel for="email" value="E-mail.:"/>
                                 <p:inputText id="email" size="40" value="#{mbPessoa.pessoa.email}"
-                                             required="true" requiredMessage="O campo [E-mail] é obrigatório">
+                                             required="true" requiredMessage="[E-mail] required">
                                     <f:validator validatorId="emailValidator"/>
                                 </p:inputText>
 
                                 <h:outputLabel for="cpf" value="CPF.:"/>
                                 <p:inputText id="cpf" size="40" value="#{mbPessoa.pessoa.cpf}"
-                                             required="true" requiredMessage="O campo [CPF] é obrigatório">
+                                             required="true" requiredMessage="[CPF] required">
                                     <f:validator validatorId="cpfValidator"/>
                                 </p:inputText>
 
                                 <h:outputLabel for="dataNascimento" value="Data de Nascimento.:"/>
                                 <p:calendar id="dataNascimento" value="#{mbPessoa.pessoa.dataDeNascimento}"
-                                            required="true" requiredMessage="O campo [Data de Nascimento] é obrigatório"
+                                            required="true" requiredMessage="[Data de Nascimento] required"
                                             locale="pt_BR" navigator="true" effect="explode" pattern="dd/MM/yyyy"/>
 
                                 <h:outputLabel for="usuario" value="Nome de Usuário.:"/>

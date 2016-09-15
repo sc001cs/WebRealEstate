@@ -16,7 +16,7 @@ body {
    height:130px;
    margin:0;
    padding:0;
-   background-image: url(../images/topo.jpg); 
+   background-image: url(../images/real-estate.jpg);
    
 }
 
@@ -28,12 +28,11 @@ body {
 }
 
 #logo{
-   float:left ;
-   width:270px;
-   height:100px;
-   margin:10px 0 0 26px;
-   background: url(../images/white_logo.png) no-repeat;
-
+    float:left;
+    width:270px;
+    height:100px;
+    margin:10px 0 0 26px;
+    background: url(../images/University-of-New-York-Tirana.png) no-repeat;
 }
 
 #logoff{
@@ -240,8 +239,8 @@ label {
 }
 
 #top {
-	width:680px;
-	height:50px;
+    width: 100%;
+    height: 250px;
 }
 
 caption{

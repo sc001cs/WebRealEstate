@@ -1,4 +1,4 @@
-package web_real_estate.support;
+package web_real_estate.managedBean;
 
 import web_real_estate.model.dao.HibernateDAO;
 import web_real_estate.model.dao.InterfaceDAO;
