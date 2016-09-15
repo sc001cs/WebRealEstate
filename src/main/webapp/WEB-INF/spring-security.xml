@@ -36,7 +36,7 @@
     
     <!-- MAS EXISTEM OUTRAS 2 FORMAS DE SE FAZER ISSO -->
     <!-- VOCÊ PODE CUSTOMIZAR A AUTENTICATION PROVIDER -->
-    <!--    <b:bean id="customAuthenticationProvider" class="br.com.semeru.security.CustomAuthenticationProvider"></b:bean> 
+    <!--    <b:bean id="customAuthenticationProvider" class="CustomAuthenticationProvider"></b:bean>
     <authentication-manager> 
         <authentication-provider ref="customAuthenticationProvider"/> 
     </authentication-manager>     -->
@@ -49,5 +49,5 @@
         </authentication-provider>
     </authentication-manager>
 
-    <b:bean id="semeruUserService" class="br.com.semeru.security.UserServiceImpl"/>-->
+    <b:bean id="semeruUserService" class="UserServiceImpl"/>-->
 </b:beans>    
