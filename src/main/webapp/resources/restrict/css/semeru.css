@@ -11,7 +11,7 @@ body {
     background-color:#FFF;
 }
 
-#topo{
+#top{
    width:auto;
    height:130px;
    margin:0;
@@ -20,14 +20,14 @@ body {
    
 }
 
-#topo h1{
+#top h1{
    width:238px;
    height:34px;
    margin:40px 0 0 0;
 
 }
 
-#logotipo{
+#logo{
    float:left ;
    width:270px;
    height:100px;
@@ -303,7 +303,7 @@ background:transparent;
 
 }
 
-#conteudo{
+#content{
    width:1260px;
    min-height: 650px;
    background-image: url(../images/background.png); 
